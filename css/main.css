@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700');
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background:  linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+    font-family: 'Poppins',sans-serif;
+}
+h4{
+    cursor: auto !important;
+}
+
+a{
+    color: black;
+    }
+/* slider1 */
+.card{
+    border-radius: 22px;
+    position: relative;
+    background: #fff;
+    width: 400px;
+    height: 700px;
+    margin: 25px auto;
+    align-items: center;
+}
+.card .content{
+    width: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+    
+}
+.card .slider-text{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    border-radius: 20px;
+}
+.card .slider-text h4{
+    color: #fff;
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+.content  img{
+    margin: 0 110px;
+    border-radius: 50px;
+    width: 120px;
+}
+.content p{
+    cursor: auto;
+    font-size: 20px;
+    line-height: 40px;
+}
+/* slider1 */
+
+
+/* slider2 */
+.card2{
+    border-radius: 22px;
+    position: relative;
+    background: rgb(230, 230, 230);
+    width: 400px;
+    height: 700px;
+    margin: 25px auto;
+    align-items: center;
+}
+.card2 .content{
+    width: 400px;
+    padding: 30px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    
+}
+.card2 .slider-text{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient( circle farthest-corner at 7.2% 19%,  rgba(120,0,0,1) 0%, rgba(239,75,75,1) 100.2% );
+    border-radius: 20px;
+}
+.card2 .slider-text h4{
+    color: #fff;
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+.card2 .icon{
+    margin-top: -120px;
+    margin-left:  20px;
+    margin-right: 20px;
+    padding: 50px;
+    cursor:pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+   
+   
+}
+.card2 .icon .tooltip{
+    background: #fff;
+    font-size: 20px;
+    padding: 10px 18px;
+    border-radius: 25px;
+    opacity:0;
+    pointer-events: none;
+    text-transform: uppercase;
+
+}
+.card2 .icon:hover .tooltip{
+    opacity: 1;
+    pointer-events: auto;
+
+}
+.card2 .icon span{
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    
+    
+}
+.card2 .icon span i{
+    font-size: 25px;
+    line-height: 50px;
+}
+.card2 .HTML:hover span{
+    color: #fff;
+    background-color: #ff5700;
+  
+}
+.card2 .CSS:hover span{
+    color: #fff;
+    background-color: #2965f1;
+  
+}
+.card2 .JS:hover span{
+   
+    background-color: #f0db4f;
+  
+}
+.card2 .ANGULAR:hover span{
+    color: #fff;
+    background-color: 	#dd1b16;
+  
+}
+.card2 .GIT:hover span{
+    color: #fff;
+    background-color: #9400D3;
+  
+}
+
+/* slider2 */
+
+/* slider3 */
+
+.card3{
+    border-radius: 22px;
+    position: relative;
+    background: rgb(230, 230, 230);
+    width: 400px;
+    height: 700px;
+    margin: 25px auto;
+    align-items: center;
+}
+.card3 .content{
+    width: 400px;
+    padding: 30px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    
+}
+.card3 .slider-text{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right, #e44d26, #f16529);
+    border-radius: 20px;
+}
+.card3 .slider-text h4{
+    color: #fff;
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+.card3 .content {
+    display: inline-flex;
+    margin-left: -40px;
+}
+.card3 .icon{
+    margin: 0 20px;
+    cursor:pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+   
+   
+}
+.card3 .icon .tooltip{
+    background: #fff;
+    font-size: 20px;
+    padding: 10px 18px;
+    border-radius: 25px;
+    opacity:0;
+    pointer-events: none;
+    text-transform: uppercase;
+
+}
+.card3 .icon:hover .tooltip{
+    opacity: 1;
+    pointer-events: auto;
+
+}
+.card3 .icon span{
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    text-transform: uppercase;
+    
+}
+.card3 .icon span i{
+    font-size: 23px;
+    line-height: 50px;
+}
+.card3 .gmail:hover span{
+    color: #fff;
+    background-color: #ff3e30
+  
+}
+.card3 .Linkdin:hover span{
+    color: #fff;
+    background-color: #0077b5;
+  
+}
+.card3 .Whatsapp:hover span{
+    color: #fff;
+    background-color: #25d366;
+  
+}
+
+/* slider3 */
+
+/* slider4 */
+.card4{
+    border-radius: 22px;
+    position: relative;
+    background: #fff;
+    width: 400px;
+    height: 700px;
+    margin: 25px auto;
+    align-items: center;
+}
+.card4 .content{
+    width: 400px;
+    padding: 30px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    
+}
+.card4 .slider-text{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #f7971e, #ffd200);
+    border-radius: 20px;
+}
+.card4 .slider-text h4{
+    color: #fff;
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+.card4 .button-download{
+ 
+    margin-left: 90px;
+    margin-top: 50px;
+    padding: 10px 10px;
+    width:150px;
+    border-radius: 5px;
+    background-color: #4d94ff
+  
+}
+.card4 .button-download:hover{
+ 
+
+    background-color: #276cd4
+  
+}
+.card4 .button-download a{
+    padding-left: 8px;
+    text-transform: uprgb(46, 118, 228);
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
