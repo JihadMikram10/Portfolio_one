@@ -15,6 +15,18 @@ h4{
 a{
     color: black;
     }
+    /* component-card */
+    .card2,.card3,.card4{
+        border-radius: 22px;
+        position: relative;
+        background: rgb(230, 230, 230);
+        width: 400px;
+        height: 700px;
+        margin: 25px auto;
+        align-items: center;
+    }
+        /* component-card */
+
 /* slider1 */
 .card{
     border-radius: 22px;
@@ -60,15 +72,7 @@ a{
 
 
 /* slider2 */
-.card2{
-    border-radius: 22px;
-    position: relative;
-    background: rgb(230, 230, 230);
-    width: 400px;
-    height: 700px;
-    margin: 25px auto;
-    align-items: center;
-}
+
 .card2 .content{
     width: 400px;
     padding: 30px;
@@ -167,15 +171,7 @@ a{
 
 /* slider3 */
 
-.card3{
-    border-radius: 22px;
-    position: relative;
-    background: rgb(230, 230, 230);
-    width: 400px;
-    height: 700px;
-    margin: 25px auto;
-    align-items: center;
-}
+
 .card3 .content{
     width: 400px;
     padding: 30px;
@@ -263,15 +259,7 @@ a{
 /* slider3 */
 
 /* slider4 */
-.card4{
-    border-radius: 22px;
-    position: relative;
-    background: #fff;
-    width: 400px;
-    height: 700px;
-    margin: 25px auto;
-    align-items: center;
-}
+
 .card4 .content{
     width: 400px;
     padding: 30px;
@@ -300,7 +288,7 @@ a{
     margin-top: 50px;
     padding: 10px 10px;
     width:150px;
-    border-radius: 5px;
+    border-radius: 30px;
     background-color: #4d94ff
   
 }
