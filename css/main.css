@@ -5,8 +5,21 @@ body {
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    background:  linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+    background:  linear-gradient( -45deg,  rgba(26,33,64,1) 10.9%, rgb(184, 141, 125) 87.1% );
+    background-size: 400% 400%;
     font-family: 'Poppins',sans-serif;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 h4{
     cursor: auto !important;
